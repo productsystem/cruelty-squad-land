@@ -134,3 +134,26 @@ button:hover{
 .info-text{
     text-align: center;
 }
+
+.quote-section{
+    background-color: aquamarine;
+    color:gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20vh 10vw;
+
+}
+
+.quote{
+    font-size:36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.quote-reference{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+}
