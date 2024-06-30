@@ -12,8 +12,8 @@ body{
     color: blue;
     display: flex;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 10vw;
+    padding-right: 10vw;
     justify-content: space-between;
     padding-top: 16px;
 }
@@ -36,4 +36,59 @@ a{
     text-decoration: none;
     transition-duration: 0s;
     color:red;
+}
+
+a:hover{
+    color:gold;
+}
+
+button{
+    background-color: yellow;
+    color: orange;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: 700;
+    padding: 8px 16px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: brown;
+    color:gold;
+    cursor: pointer;
+}
+
+.big-section{
+    gap:32px;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
+
+.big-text{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+#cruelty-squad-img{
+    display: block;
+    
+}
+
+.big-text-main{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.big-text-sec{
+    color:aqua;
 }
