@@ -31,3 +31,9 @@ ul{
     font-size: large;
     font-weight: 700;
 }
+
+a{
+    text-decoration: none;
+    transition-duration: 0s;
+    color:red;
+}
